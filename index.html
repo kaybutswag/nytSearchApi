@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!-- Bootstrap css -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+	    <div class="container">
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<header>
+						<h1>New York Times Search</h1>
+					</header>
+					<form id="theForm">
+						<div class="form-group">
+							<label for="search">Search Term:</label>
+							<input type="text" class="formControl" id="search" placeholder="Enter search term here">
+						</div>				
+						<div class="form-group">
+							<label for="numOfResult">Number of Records to Retrieve</label>
+							<select class="form-control" id="numOfResult">
+							<option>1</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="search">Start Year</label>
+							<input type="text" class="formControl" id="startYear" placeholder="First year of date range">
+						</div>					
+						<div class="form-group">
+							<label for="search">End Year</label>
+							<input type="text" class="formControl" id="endYear" placeholder="Last year of date range">
+						</div>						
+						<button type="submit" class="btn btn-dark" id="searchBtn">Search</button>				
+						<button type="clear" class="btn btn-dark" id="clearForm">Clear Form</button>
+					</form>
+				</div>
+				<div class="col-md-3">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<header id="topArti">
+						<h3>Top Articles</h3>
+					</header>
+					<div class="topArticles">
+						<div class="results">
+					<!--		<p><span class="artiCount">1</span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<br><span class="byline"> By: Integer pharetra accumsan</span>
+							</p> -->
+						</div>
+					</div>		
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/javascript.js"></script>
+	</body>
+</html>
+
+		
+
